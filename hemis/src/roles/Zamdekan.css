@@ -1,0 +1,152 @@
+/* Zamdekan.css */
+
+/* Asosiy konteyner dizayni */
+.zamdekan-container {
+  font-family: 'Arial', sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.zamdekan-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Form styling */
+.zamdekan-form {
+  display: grid;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.submit-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Cardlar uchun styling */
+.cards-container {
+  display: grid;
+  gap: 20px;
+}
+
+.card {
+  padding: 15px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.camera-link {
+  display: inline-block;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.camera-link:hover {
+  background-color: #1e7e34;
+}
+
+/* Kamera view uchun dizayn */
+.camera-view-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #fdfdfd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.camera-view-container h2,
+.camera-view-container h3 {
+  color: #444;
+}
+
+.media-player {
+  margin-top: 20px;
+}
+
+.play-button {
+  
+  display: inline-block;
+  background-color: #ffc107;
+  color: black;
+  border: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  position: relative;
+  top: 30px;
+  left: -120px;
+}
+
+.play-button:hover {
+  background-color: #e0a800;
+}
+
+.back-button {
+  margin-top: 20px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  position: relative;
+  left: 80px;
+  top: -30px;
+
+}
+
+.back-button:hover {
+  background-color: #c82333;
+}
